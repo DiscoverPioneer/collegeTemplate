@@ -21,6 +21,9 @@
 		093D503418D646FA00B6C68F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093D503318D646FA00B6C68F /* OpenGLES.framework */; };
 		093D503618D6470200B6C68F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093D503518D6470200B6C68F /* QuartzCore.framework */; };
 		093D503818D6470F00B6C68F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093D503718D6470F00B6C68F /* SystemConfiguration.framework */; };
+		093D503B18D64E1400B6C68F /* Twitter1.html in Resources */ = {isa = PBXBuildFile; fileRef = 093D503918D64E1400B6C68F /* Twitter1.html */; };
+		093D503C18D64E1400B6C68F /* Twitter2.html in Resources */ = {isa = PBXBuildFile; fileRef = 093D503A18D64E1400B6C68F /* Twitter2.html */; };
+		093D503F18D64F2D00B6C68F /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093D503E18D64F2D00B6C68F /* WebViewController.m */; };
 		09B11DDF18D54010006B55D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B11DDE18D54010006B55D5 /* Foundation.framework */; };
 		09B11DE118D54010006B55D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B11DE018D54010006B55D5 /* CoreGraphics.framework */; };
 		09B11DE318D54010006B55D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B11DE218D54010006B55D5 /* UIKit.framework */; };
@@ -67,6 +70,10 @@
 		093D503318D646FA00B6C68F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		093D503518D6470200B6C68F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		093D503718D6470F00B6C68F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		093D503918D64E1400B6C68F /* Twitter1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Twitter1.html; sourceTree = "<group>"; };
+		093D503A18D64E1400B6C68F /* Twitter2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Twitter2.html; sourceTree = "<group>"; };
+		093D503D18D64F2D00B6C68F /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		093D503E18D64F2D00B6C68F /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		09B11DDB18D54010006B55D5 /* CollegeMapTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeMapTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B11DDE18D54010006B55D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09B11DE018D54010006B55D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -188,6 +195,8 @@
 				09B11E1618D549B5006B55D5 /* TableViewController.m */,
 				09B11E1818D54E5E006B55D5 /* MapViewController.h */,
 				09B11E1918D54E5E006B55D5 /* MapViewController.m */,
+				093D503D18D64F2D00B6C68F /* WebViewController.h */,
+				093D503E18D64F2D00B6C68F /* WebViewController.m */,
 				09B11E1F18D5580C006B55D5 /* Resources */,
 				09B11DF618D54010006B55D5 /* Images.xcassets */,
 				09B11DE518D54010006B55D5 /* Supporting Files */,
@@ -227,6 +236,8 @@
 		09B11E1F18D5580C006B55D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				093D503918D64E1400B6C68F /* Twitter1.html */,
+				093D503A18D64E1400B6C68F /* Twitter2.html */,
 				09B11E1318D54679006B55D5 /* Background.png */,
 				09B11E1B18D557E8006B55D5 /* Locations.plist */,
 				09B11E1D18D557FD006B55D5 /* Links.plist */,
@@ -311,9 +322,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B11DF718D54010006B55D5 /* Images.xcassets in Resources */,
+				093D503C18D64E1400B6C68F /* Twitter2.html in Resources */,
 				09B11E1418D5467A006B55D5 /* Background.png in Resources */,
 				09B11DE918D54010006B55D5 /* InfoPlist.strings in Resources */,
 				09B11E1C18D557E8006B55D5 /* Locations.plist in Resources */,
+				093D503B18D64E1400B6C68F /* Twitter1.html in Resources */,
 				09B11E1E18D557FD006B55D5 /* Links.plist in Resources */,
 				09B11DF218D54010006B55D5 /* Main.storyboard in Resources */,
 				093D502018D6467D00B6C68F /* GoogleMaps.bundle in Resources */,
@@ -336,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B11DF518D54010006B55D5 /* ViewController.m in Sources */,
+				093D503F18D64F2D00B6C68F /* WebViewController.m in Sources */,
 				09B11DEF18D54010006B55D5 /* AppDelegate.m in Sources */,
 				09B11E1A18D54E5E006B55D5 /* MapViewController.m in Sources */,
 				09B11DEB18D54010006B55D5 /* main.m in Sources */,
