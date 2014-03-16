@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Arnold House</string>
+		<key>Address</key>
+		<string>715 North Pleasant Street</string>
+		<key>Coordinates</key>
+		<string>42.394226,-72.525974</string>
+		<key>Section</key>
+		<string>Academics</string>
+	</dict>
+</array>
+</plist>

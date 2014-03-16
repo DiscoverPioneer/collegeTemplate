@@ -21,6 +21,11 @@
 		09B11E0018D54010006B55D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B11DE218D54010006B55D5 /* UIKit.framework */; };
 		09B11E0818D54010006B55D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09B11E0618D54010006B55D5 /* InfoPlist.strings */; };
 		09B11E0A18D54010006B55D5 /* CollegeMapTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B11E0918D54010006B55D5 /* CollegeMapTemplateTests.m */; };
+		09B11E1418D5467A006B55D5 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B11E1318D54679006B55D5 /* Background.png */; };
+		09B11E1718D549B5006B55D5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B11E1618D549B5006B55D5 /* TableViewController.m */; };
+		09B11E1A18D54E5E006B55D5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B11E1918D54E5E006B55D5 /* MapViewController.m */; };
+		09B11E1C18D557E8006B55D5 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09B11E1B18D557E8006B55D5 /* Locations.plist */; };
+		09B11E1E18D557FD006B55D5 /* Links.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09B11E1D18D557FD006B55D5 /* Links.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,13 @@
 		09B11E0518D54010006B55D5 /* CollegeMapTemplateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollegeMapTemplateTests-Info.plist"; sourceTree = "<group>"; };
 		09B11E0718D54010006B55D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09B11E0918D54010006B55D5 /* CollegeMapTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollegeMapTemplateTests.m; sourceTree = "<group>"; };
+		09B11E1318D54679006B55D5 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		09B11E1518D549B5006B55D5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		09B11E1618D549B5006B55D5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		09B11E1818D54E5E006B55D5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		09B11E1918D54E5E006B55D5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		09B11E1B18D557E8006B55D5 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
+		09B11E1D18D557FD006B55D5 /* Links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Links.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,11 @@
 				09B11DF018D54010006B55D5 /* Main.storyboard */,
 				09B11DF318D54010006B55D5 /* ViewController.h */,
 				09B11DF418D54010006B55D5 /* ViewController.m */,
+				09B11E1518D549B5006B55D5 /* TableViewController.h */,
+				09B11E1618D549B5006B55D5 /* TableViewController.m */,
+				09B11E1818D54E5E006B55D5 /* MapViewController.h */,
+				09B11E1918D54E5E006B55D5 /* MapViewController.m */,
+				09B11E1F18D5580C006B55D5 /* Resources */,
 				09B11DF618D54010006B55D5 /* Images.xcassets */,
 				09B11DE518D54010006B55D5 /* Supporting Files */,
 			);
@@ -150,6 +167,16 @@
 				09B11E0618D54010006B55D5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09B11E1F18D5580C006B55D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09B11E1318D54679006B55D5 /* Background.png */,
+				09B11E1B18D557E8006B55D5 /* Locations.plist */,
+				09B11E1D18D557FD006B55D5 /* Links.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B11DF718D54010006B55D5 /* Images.xcassets in Resources */,
+				09B11E1418D5467A006B55D5 /* Background.png in Resources */,
 				09B11DE918D54010006B55D5 /* InfoPlist.strings in Resources */,
+				09B11E1C18D557E8006B55D5 /* Locations.plist in Resources */,
+				09B11E1E18D557FD006B55D5 /* Links.plist in Resources */,
 				09B11DF218D54010006B55D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +281,9 @@
 			files = (
 				09B11DF518D54010006B55D5 /* ViewController.m in Sources */,
 				09B11DEF18D54010006B55D5 /* AppDelegate.m in Sources */,
+				09B11E1A18D54E5E006B55D5 /* MapViewController.m in Sources */,
 				09B11DEB18D54010006B55D5 /* main.m in Sources */,
+				09B11E1718D549B5006B55D5 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

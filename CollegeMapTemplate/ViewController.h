@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UILabel *lblTime; //Make sure to connect this to the label in the storyboard/xib
+    NSDate *currentTime;
+    NSTimer *updateTimer;
+}
 
 @end
