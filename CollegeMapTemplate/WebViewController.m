@@ -37,8 +37,6 @@ NSString* PAGE2 = @"http://discoverpioneer.com/AppResources/%23umassTweets.html"
     if (!twoFeeds) {
         self.segmentedOutlet.hidden=YES;
     }
-    
-    
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)webView{

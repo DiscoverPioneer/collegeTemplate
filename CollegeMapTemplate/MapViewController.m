@@ -62,13 +62,10 @@ float CENTER_LONGITUDE = -72.526506;
     else{
         lat=CENTER_LATITUDE;
         lon=CENTER_LONGITUDE;
-        
     }
-	// Do any additional setup after loading the view, typically from a nib.
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:lat
                                                             longitude:lon
                                                                  zoom:17];
-    
     mapView_ = [GMSMapView mapWithFrame:CGRectMake(0, 44, self.view.frame.size.width, self.view.frame.size.height-88) camera:camera];
     //mapView_.autoresizesSubviews=YES;
     mapView_.autoresizingMask= UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
@@ -85,7 +82,6 @@ float CENTER_LONGITUDE = -72.526506;
 -(void)makeData{
     NSString *path =[[NSBundle mainBundle]pathForResource:@"Locations" ofType:@"plist"];
     locationArray = [[NSArray alloc] initWithContentsOfFile:path];
-    
     [self makeMarks];
     
 }
@@ -136,8 +132,6 @@ float CENTER_LONGITUDE = -72.526506;
         @catch (NSException *exception) {
             NSLog(@"NO");
         }
-        
-        // Creates a marker in the center of the map.
     }
 }
 
@@ -150,15 +144,12 @@ float CENTER_LONGITUDE = -72.526506;
 }
 - (IBAction)hybrid:(id)sender {
     mapView_.mapType = kGMSTypeHybrid;
-    
 }
 - (IBAction)satellite:(id)sender {
     mapView_.mapType = kGMSTypeSatellite;
-    
 }
 - (IBAction)terrain:(id)sender {
     mapView_.mapType = kGMSTypeTerrain;
-    
 }
 
 - (IBAction)legalNotice:(id)sender {
